@@ -83,7 +83,6 @@ function main(){
     if ! cat "$PUB_KEY_PATH" > ./temp_pub_key.pub; then
         exitErr "Public key temporary file creation failed" false
     fi
-    sleep 3
     # Checks if docker commands fail
     if ! docker build -t "$IMG_NAME" "$DOCKFILE_PATH" >> "$LOGS_FILE_PATH" 2>&1; then
         exitErr "Could not build docker image" true
