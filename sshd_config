@@ -1,0 +1,7 @@
+Port 4242
+PermitRootLogin no
+ChallengeResponseAuthentication no
+PasswordAuthentication no
+UsePAM no
+PubkeyAuthentication yes
+MaxAuthTries 3
