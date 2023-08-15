@@ -12,7 +12,7 @@ The educational value of this project is understanding the Tor network functioni
 
 ### Set Up
 
-To set up the `init.sh` script you must configure the path for your ssh_public_key to use, so you can log into the docker container via ssh, using public_key authentication. Additionally, you can change the log file path to see any logs about the building process for debugging purposes. Both variables are at the top of the script
+To set up the `init.sh` script you must configure the path for your ssh_public_key to use, so you can log into the docker container via ssh, using public key authentication. Additionally, you can change the log file path to see any logs about the building process for debugging purposes. Both variables are at the top of the script
 
 ### Building
 
